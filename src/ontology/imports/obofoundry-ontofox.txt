@@ -1,5 +1,5 @@
 [URI of the OWL(RDF/XML) output file]
-http://purl.obolibrary.org/obo/owl-tutorial/imports/obi-import.owl
+http://purl.obolibrary.org/obo/owl-tutorial/imports/obofoundry-import.owl
 
 [Source ontology]
 OBI
@@ -15,7 +15,9 @@ http://purl.obolibrary.org/obo/OBI_1110053 #cancer
 http://purl.obolibrary.org/obo/UBERON_0000479 #tissue
 http://purl.obolibrary.org/obo/UBERON_0001155 #colon
 http://purl.obolibrary.org/obo/OBI_0002371 #diagnosis of cancer
+
 http://purl.obolibrary.org/obo/OGMS_0000104 # diagnostic process
+http://purl.obolibrary.org/obo/MONDO_0005161 # human papilloma virus infection
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001 #entity
