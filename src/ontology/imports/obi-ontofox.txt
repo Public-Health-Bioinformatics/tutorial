@@ -1,0 +1,27 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/owl-tutorial/imports/obi-import.owl
+
+[Source ontology]
+OBI
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCBITaxon_9606 #Homo sapiens
+http://purl.obolibrary.org/obo/IAO_0000577 #centrally registered identifier symbol
+http://purl.obolibrary.org/obo/OBI_0000070 #assay
+http://purl.obolibrary.org/obo/OGMS_0000073 #diagnosis
+http://purl.obolibrary.org/obo/OGMS_0000031 #disease
+http://purl.obolibrary.org/obo/UBERON_0002048 #lung
+http://purl.obolibrary.org/obo/OBI_1110053 #cancer
+http://purl.obolibrary.org/obo/UBERON_0000479 #tissue
+http://purl.obolibrary.org/obo/UBERON_0001155 #colon
+http://purl.obolibrary.org/obo/OBI_0002371 #diagnosis of cancer
+http://purl.obolibrary.org/obo/OGMS_0000104 # diagnostic process
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 #entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
