@@ -16,14 +16,10 @@ http://purl.obolibrary.org/obo/UBERON_0000479 #tissue
 http://purl.obolibrary.org/obo/UBERON_0001155 #colon
 http://purl.obolibrary.org/obo/OBI_0002371 #diagnosis of cancer
 
-http://purl.obolibrary.org/obo/OGMS_0000104 # diagnostic process
-http://purl.obolibrary.org/obo/MONDO_0005161 # human papilloma virus infection
-
-
-# http://purl.obolibrary.org/obo/IAO_0000078 # curation status specification
-# http://purl.obolibrary.org/obo/IAO_0000104 # plan specification
-# http://purl.obolibrary.org/obo/OBI_0000067 # evaluant role
-# http://purl.obolibrary.org/obo/NCBITaxon_2 # Bacteria
+http://purl.obolibrary.org/obo/IAO_0000078 # curation status specification
+http://purl.obolibrary.org/obo/IAO_0000104 # plan specification
+http://purl.obolibrary.org/obo/OBI_0000067 # evaluant role
+http://purl.obolibrary.org/obo/NCBITaxon_2 # Bacteria
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001 #entity
@@ -33,3 +29,39 @@ includeAllIntermediates
 
 [Source annotation URIs]
 includeAllAxioms
+
+######################
+[Source ontology]
+OGMS
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OGMS_0000104 # diagnostic process
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 #entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+
+
+######################
+[Source ontology]
+MONDO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/MONDO_0005161 # human papilloma virus infection
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 #entity
+
+[Source term retrieval setting]
+
+
+[Source annotation URIs]
+includeAllAxioms
+
